@@ -19,6 +19,7 @@ h1{
   font-size: 2rem;
   margin-top: 1.5rem;
   color: var(--fontes);
+  text-align: center;
 }
 a{
   color: var(--links);
