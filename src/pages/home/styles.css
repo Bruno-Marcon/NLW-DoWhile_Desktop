@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html{
+  --fundo:#09090A;
+  --fontes:gray;
+  --links:gray;
+}
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: var(--fundo);
+  background-image: url(/src/assets/Desktop\ \(1\).png);
+  background-size: 1440px 820px;
+  background-repeat: no-repeat;
+}
+h1{
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: var(--fontes);
+}
+a{
+  color: var(--links);
+  text-decoration: none;
+  margin-top: 0.25rem;
+  color: var(--fontes);
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  margin-top: 2rem;
+  color: var(--fontes);
+  text-align: center;
+}
+ul{
+  margin-top: 2.2rem;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.elements{
+  position: absolute;
+  top: 15rem;
+}
+.content{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.content > img{
+  z-index: 1;
+}
+.identification{
+  position: absolute;
+  top: 9rem;
+}
+#mask{
+  position: absolute;
+}
+.avatar{
+  display: grid;
+  position: relative;
+  top: -29rem;
+  justify-content: center;
+}
+.avatar span img{
+  position: absolute;
+  z-index: 1;
+  top: -19px;
+}
+#foto{
+  width: 10rem;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  object-fit: cover;
+}
